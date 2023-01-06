@@ -4,8 +4,16 @@ ps4:
   title: PS4
   description: PS4 linda
   price: 150
+  category: videogames
 
 nintendo:
   title: wii
   description: ta malito
   price: 100
+  category: videogames
+
+macbook:
+  title: macpro
+  description: nueva
+  price: 1000
+  category: computers
