@@ -1,5 +1,9 @@
-<h1><%=t('.title')%></h1>
+<%=turbo_frame_tag 'categories' do%>
+    <h1><%=t('.title')%></h1>
 
-<%= render partial: 'category', collection: @categories%>
+    <%= link_to t('.all'), products_path%>
 
-<%= render partial: 'product', collection: @products%>
+    <%= render partial: 'category', collection: @categories%>
+
+    <%= render partial: 'product', collection: @products%>
+<%end%>

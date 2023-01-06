@@ -21,5 +21,7 @@ module LaTiendecita
 
     config.i18n.available_locales=  [:en, :es]
     config.i18n.default_locale = :es
+
+    config.active_recort.async_query_executor = :global_thread_pool
   end
 end
